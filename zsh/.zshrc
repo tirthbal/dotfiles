@@ -89,6 +89,9 @@ export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # opencode
 export PATH=/home/wysa-tp/.opencode/bin:$PATH
+
+#tmuxifier
+export PATH="/home/wysa-tp/.config/tmux/plugins/tmuxifier/bin:$PATH"
 alias vim="nvim"
 
 # Force git, system utilities, and scripts to use neovim
@@ -112,6 +115,8 @@ source <(fzf --zsh)
 
 eval "$(zoxide init zsh)"
 
+eval "$(tmuxifier init -)"
+
 alias oo="z ~/Documents/obs/personal/"
 alias ow="z ~/Documents/obs/work/"
 
@@ -126,4 +131,7 @@ alias tdt='task due:today list'
 alias tconfig='vim ~/.taskrc'
 alias health='cd ~ && ./essential_scripts/aws-health-tmux.sh && cd -'
 alias refresh-ctags="git ls-files | ctags -L -"
+alias cdmuxlayout="z ~/.config/tmux/plugins/tmuxifier/layouts/"
+alias clip='xclip -selection clipboard'
+alias cd='z'
 neofetch
