@@ -5,3 +5,4 @@ vim.g.mapleader = ","
 vim.g.autoformat = false
 vim.opt.ignorecase = true
 vim.opt.smartcase = false
+vim.g.editorconfig = false

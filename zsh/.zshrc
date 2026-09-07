@@ -134,4 +134,6 @@ alias refresh-ctags="git ls-files | ctags -L -"
 alias cdmuxlayout="z ~/.config/tmux/plugins/tmuxifier/layouts/"
 alias clip='xclip -selection clipboard'
 alias cd='z'
-neofetch
+alias calsync='vdirsyncer sync'
+#neofetch
+alias findpr="zsh /home/wysa-tp/essential_scripts/find_pr_by_author.sh"
