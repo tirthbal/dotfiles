@@ -137,3 +137,13 @@ alias cd='z'
 alias calsync='vdirsyncer sync'
 #neofetch
 alias findpr="zsh /home/wysa-tp/essential_scripts/find_pr_by_author.sh"
+alias d2id="node /home/wysa-tp/essential_scripts/old.js from-date"
+alias id2dt="node /home/wysa-tp/essential_scripts/old.js from-id"
+
+# alias for tmux
+alias mx="tmux"
+alias mxa="tmux a -t"
+alias mxls="tmux ls"
+alias mux="tmuxifier"
+alias muxl="tmuxifier load-session"
+alias muxe="tmuxifier edit-session"
